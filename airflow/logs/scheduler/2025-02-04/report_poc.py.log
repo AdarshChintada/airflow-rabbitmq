@@ -1,0 +1,77 @@
+[2025-02-04T10:10:40.076+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:10:40.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:10:40.079+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:40.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:10:40.183+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:10:40.347+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:40.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:10:40.484+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:40.484+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:10:40.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.476 seconds
+[2025-02-04T10:11:40.169+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:11:40.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:11:40.173+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:40.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:11:40.268+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:11:40.311+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:40.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:11:40.343+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:40.343+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:11:40.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.234 seconds
+[2025-02-04T10:12:41.688+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:12:41.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:12:41.700+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:41.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:12:41.944+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:12:42.061+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:42.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:12:42.129+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:42.129+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:12:42.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.605 seconds
+[2025-02-04T10:13:40.935+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:13:40.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:13:40.939+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:40.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:13:41.035+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:13:41.096+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:41.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:13:41.274+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:41.274+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:13:41.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.421 seconds
+[2025-02-04T10:14:41.305+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:14:41.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:14:41.309+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:41.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:14:41.384+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:14:41.450+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:41.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:14:41.578+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:41.577+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:14:41.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.357 seconds
+[2025-02-04T10:15:42.009+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:15:42.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:15:42.014+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:42.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:15:42.464+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:15:42.514+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:42.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:15:42.548+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:42.548+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:15:42.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.631 seconds
+[2025-02-04T10:16:42.178+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:16:42.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:16:42.182+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:42.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:16:42.407+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:16:42.451+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:42.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:16:42.485+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:42.485+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:16:42.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.411 seconds
+[2025-02-04T10:17:42.491+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:17:42.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:17:42.494+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:42.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:17:42.574+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:17:42.627+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:42.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:17:42.803+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:42.803+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:17:42.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.416 seconds
+[2025-02-04T10:18:42.922+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:18:42.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:18:42.926+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:42.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:18:43.047+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:18:43.312+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:43.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:18:43.379+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:43.378+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:18:43.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.590 seconds
+[2025-02-04T10:19:24.599+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:19:24.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:19:24.603+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:24.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:19:24.689+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:19:24.845+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:24.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:19:24.879+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:24.879+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:19:24.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.348 seconds
+[2025-02-04T10:21:44.346+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/report_poc.py
+[2025-02-04T10:21:44.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/report_poc.py for tasks to queue
+[2025-02-04T10:21:44.349+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:44.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:21:44.439+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/report_poc.py
+[2025-02-04T10:21:44.487+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:44.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:21:44.524+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:44.524+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-04 09:30:00+00:00, run_after=2025-02-05 09:30:00+00:00
+[2025-02-04T10:21:44.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/report_poc.py took 0.269 seconds

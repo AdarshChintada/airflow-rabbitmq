@@ -1,0 +1,55 @@
+[2025-02-04T10:10:44.430+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:10:44.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:10:44.433+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:44.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:10:44.444+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:10:44.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.036 seconds
+[2025-02-04T10:11:43.795+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:11:43.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:11:43.799+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:43.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:11:43.814+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:11:43.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.041 seconds
+[2025-02-04T10:12:45.888+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:12:45.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:12:45.893+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:45.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:12:45.915+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:12:45.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.063 seconds
+[2025-02-04T10:13:44.577+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:13:44.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:13:44.583+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:44.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:13:44.608+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:13:44.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.071 seconds
+[2025-02-04T10:14:44.996+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:14:44.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:14:45.000+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:45.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:14:45.017+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:14:45.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.054 seconds
+[2025-02-04T10:15:46.752+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:15:46.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:15:46.761+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:46.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:15:46.786+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:15:46.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.075 seconds
+[2025-02-04T10:16:45.985+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:16:45.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:16:45.988+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:45.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:16:45.998+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:16:46.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.036 seconds
+[2025-02-04T10:17:46.086+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:17:46.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:17:46.089+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:46.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:17:46.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:17:46.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.038 seconds
+[2025-02-04T10:18:47.509+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:18:47.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:18:47.515+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:47.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:18:47.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:18:47.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.059 seconds
+[2025-02-04T10:19:28.239+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:19:28.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:19:28.243+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:28.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:19:28.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:19:28.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.043 seconds
+[2025-02-04T10:21:47.820+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:21:47.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/custom_schedule.py for tasks to queue
+[2025-02-04T10:21:47.824+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:47.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:21:47.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/custom_schedule.py
+[2025-02-04T10:21:47.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/custom_schedule.py took 0.039 seconds

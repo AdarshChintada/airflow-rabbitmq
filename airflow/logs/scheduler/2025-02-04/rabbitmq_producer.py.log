@@ -1,0 +1,92 @@
+[2025-02-04T09:59:46.409+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T09:59:46.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T09:59:46.415+0000] {logging_mixin.py:190} INFO - [2025-02-04T09:59:46.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T09:59:46.646+0000] {processor.py:925} INFO - DAG(s) 'Report_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T09:59:47.137+0000] {logging_mixin.py:190} INFO - [2025-02-04T09:59:47.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T09:59:47.180+0000] {logging_mixin.py:190} INFO - [2025-02-04T09:59:47.180+0000] {dag.py:4180} INFO - Setting next_dagrun for Report_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T09:59:47.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.898 seconds
+[2025-02-04T10:10:38.060+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:10:38.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:10:38.064+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:10:38.235+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:10:38.536+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.536+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:rabbitmq_POC
+[2025-02-04T10:10:38.578+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.578+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:rabbitmq_POC
+[2025-02-04T10:10:38.614+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.614+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:rabbitmq_POC
+[2025-02-04T10:10:38.678+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.677+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:rabbitmq_POC
+[2025-02-04T10:10:38.713+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.713+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:rabbitmq_POC
+[2025-02-04T10:10:38.747+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.747+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:rabbitmq_POC
+[2025-02-04T10:10:38.784+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.783+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:rabbitmq_POC
+[2025-02-04T10:10:38.784+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:10:38.807+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.806+0000] {dag.py:3262} INFO - Creating ORM DAG for rabbitmq_POC
+[2025-02-04T10:10:38.822+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:10:38.822+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:10:38.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.845 seconds
+[2025-02-04T10:11:38.520+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:11:38.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:11:38.526+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:38.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:11:38.630+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:11:38.676+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:38.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:11:38.856+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:11:38.856+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:11:38.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.424 seconds
+[2025-02-04T10:12:38.927+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:12:38.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:12:38.934+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:38.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:12:39.154+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:12:39.230+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:39.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:12:39.664+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:12:39.664+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:12:40.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 1.278 seconds
+[2025-02-04T10:13:39.310+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:13:39.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:13:39.313+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:39.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:13:39.410+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:13:39.612+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:39.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:13:39.655+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:13:39.655+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:13:39.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.436 seconds
+[2025-02-04T10:14:39.777+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:14:39.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:14:39.781+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:39.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:14:39.995+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:14:40.029+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:40.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:14:40.061+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:14:40.060+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:14:40.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.383 seconds
+[2025-02-04T10:15:40.169+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:15:40.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:15:40.241+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:40.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:15:40.588+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:15:40.623+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:40.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:15:40.680+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:15:40.680+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:15:40.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.636 seconds
+[2025-02-04T10:16:40.642+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:16:40.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:16:40.645+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:40.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:16:40.873+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:16:40.902+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:40.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:16:40.940+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:16:40.940+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:16:41.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.375 seconds
+[2025-02-04T10:17:40.836+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:17:40.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:17:40.840+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:40.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:17:41.086+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:17:41.126+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:41.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:17:41.159+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:17:41.158+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:17:41.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.402 seconds
+[2025-02-04T10:18:41.149+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:18:41.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:18:41.155+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:41.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:18:41.490+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:18:41.527+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:41.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:18:41.565+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:18:41.565+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:18:41.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.527 seconds
+[2025-02-04T10:19:22.986+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:19:22.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:19:22.990+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:22.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:19:23.249+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:19:23.278+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:23.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:19:23.309+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:19:23.309+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:19:23.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.406 seconds
+[2025-02-04T10:21:42.767+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:21:42.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rabbitmq_producer.py for tasks to queue
+[2025-02-04T10:21:42.775+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:42.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:21:42.924+0000] {processor.py:925} INFO - DAG(s) 'rabbitmq_POC' retrieved from /opt/airflow/dags/rabbitmq_producer.py
+[2025-02-04T10:21:42.969+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:42.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T10:21:43.000+0000] {logging_mixin.py:190} INFO - [2025-02-04T10:21:43.000+0000] {dag.py:4180} INFO - Setting next_dagrun for rabbitmq_POC to 2025-02-03 09:30:00+00:00, run_after=2025-02-04 09:30:00+00:00
+[2025-02-04T10:21:43.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rabbitmq_producer.py took 0.385 seconds

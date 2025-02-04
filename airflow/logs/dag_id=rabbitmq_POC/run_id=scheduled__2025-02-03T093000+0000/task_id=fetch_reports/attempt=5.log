@@ -1,0 +1,22 @@
+[2025-02-04T13:00:11.674+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T13:00:11.726+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rabbitmq_POC.fetch_reports scheduled__2025-02-03T09:30:00+00:00 [queued]>
+[2025-02-04T13:00:11.758+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rabbitmq_POC.fetch_reports scheduled__2025-02-03T09:30:00+00:00 [queued]>
+[2025-02-04T13:00:11.759+0000] {taskinstance.py:2866} INFO - Starting attempt 5 of 2
+[2025-02-04T13:00:11.837+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_reports> on 2025-02-03 09:30:00+00:00
+[2025-02-04T13:00:11.842+0000] {standard_task_runner.py:72} INFO - Started process 87 to run task
+[2025-02-04T13:00:11.847+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'rabbitmq_POC', 'fetch_reports', 'scheduled__2025-02-03T09:30:00+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/rabbitmq_producer.py', '--cfg-path', '/tmp/tmp3j9_yvgt']
+[2025-02-04T13:00:11.851+0000] {standard_task_runner.py:105} INFO - Job 162: Subtask fetch_reports
+[2025-02-04T13:00:12.004+0000] {task_command.py:467} INFO - Running <TaskInstance: rabbitmq_POC.fetch_reports scheduled__2025-02-03T09:30:00+00:00 [running]> on host 4a115ba5843b
+[2025-02-04T13:00:12.167+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='rabbitmq_POC' AIRFLOW_CTX_TASK_ID='fetch_reports' AIRFLOW_CTX_EXECUTION_DATE='2025-02-03T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-03T09:30:00+00:00'
+[2025-02-04T13:00:12.168+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T13:00:12.213+0000] {connection_workflow.py:179} INFO - Pika version 1.3.2 connecting to ('172.19.0.4', 5672)
+[2025-02-04T13:00:12.214+0000] {io_services_utils.py:345} INFO - Socket connected: <socket.socket fd=7, family=2, type=1, proto=6, laddr=('172.19.0.6', 53832), raddr=('172.19.0.4', 5672)>
+[2025-02-04T13:00:12.217+0000] {connection_workflow.py:428} INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2d96d95f10>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2d96d95f10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+[2025-02-04T13:00:12.222+0000] {connection_workflow.py:293} INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2d96d95f10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-02-04T13:00:12.224+0000] {connection_workflow.py:725} INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2d96d95f10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-02-04T13:00:12.225+0000] {blocking_connection.py:453} INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2d96d95f10> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-02-04T13:00:12.226+0000] {blocking_connection.py:1264} INFO - Created channel=1
+[2025-02-04T13:18:11.837+0000] {local_task_job_runner.py:127} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-02-04T13:18:11.841+0000] {process_utils.py:132} INFO - Sending 15 to group 87. PIDs of all processes in the group: [87]
+[2025-02-04T13:18:11.845+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 87
+[2025-02-04T13:18:11.847+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.

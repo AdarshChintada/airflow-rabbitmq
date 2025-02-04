@@ -1,0 +1,103 @@
+version: '3'
+
+services:
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - mongo
+      - rabbitmq
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8080:8080"
+    command: bash -c "rm -f /opt/airflow/airflow-webserver.pid && airflow standalone"
+    networks:
+      - airflow_network  # Added network
+
+  mongo:
+    image: mongo:latest
+    hostname: scheduledb
+    ports:
+      - "27017:27017"
+    volumes:
+      - schedule-data:/data/db
+    networks:
+      - airflow_network  # Added network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    ports:
+      - "35672:5672"  # RabbitMQ default port
+      - "45672:15672"  # RabbitMQ Management UI
+    networks:
+      - airflow_network  # Added network
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+      - RABBITMQ_DEFAULT_VHOST=/
+
+
+  report-consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - rabbitmq
+    volumes:
+      - ./airflow:/opt/airflow
+    command: python /opt/airflow/dags/rabbitmq_consumer.py
+    networks:
+      - airflow_network  # Added network
+
+  email-server:
+    image: bytemark/smtp
+    restart: always
+    networks:
+      - airflow_network  # Added network
+  
+
+volumes:
+  schedule-data:
+
+networks:
+  airflow_network:  # Define the custom network
+    driver: bridge  # Default driver
+
+
+
+
+# version: '3'
+
+# services:
+#   aiflow-webserver:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     depends_on:
+#       - mongo
+#       - Email  
+#     volumes:
+#       - ./airflow:/opt/airflow
+#     ports:
+#       - "8080:8080"
+#     command: bash -c "rm -f /opt/airflow/airflow-webserver.pid && airflow standalone"
+#     environment:
+#       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+
+#   mongo:
+#     image: mongo:latest
+#     hostname: scheduledb
+#     ports:
+#       - "27017:27017"
+#     volumes:
+#       - schedule-data:/data/db
+  
+#   Email:
+#     image: bytemark/smtp
+#     restart: always
+    
+# volumes:
+#   schedule-data:

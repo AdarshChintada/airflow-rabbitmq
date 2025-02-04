@@ -1,0 +1,25 @@
+[2025-02-04T10:22:05.740+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T10:22:05.775+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rabbitmq_POC.fetch_reports scheduled__2025-02-03T09:30:00+00:00 [queued]>
+[2025-02-04T10:22:05.802+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rabbitmq_POC.fetch_reports scheduled__2025-02-03T09:30:00+00:00 [queued]>
+[2025-02-04T10:22:05.803+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-04T10:22:05.871+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_reports> on 2025-02-03 09:30:00+00:00
+[2025-02-04T10:22:05.875+0000] {standard_task_runner.py:72} INFO - Started process 110 to run task
+[2025-02-04T10:22:05.878+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'rabbitmq_POC', 'fetch_reports', 'scheduled__2025-02-03T09:30:00+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/rabbitmq_producer.py', '--cfg-path', '/tmp/tmp7d9ruyra']
+[2025-02-04T10:22:05.881+0000] {standard_task_runner.py:105} INFO - Job 148: Subtask fetch_reports
+[2025-02-04T10:22:06.016+0000] {task_command.py:467} INFO - Running <TaskInstance: rabbitmq_POC.fetch_reports scheduled__2025-02-03T09:30:00+00:00 [running]> on host c8b9d70bc89f
+[2025-02-04T10:22:06.200+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='rabbitmq_POC' AIRFLOW_CTX_TASK_ID='fetch_reports' AIRFLOW_CTX_EXECUTION_DATE='2025-02-03T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-03T09:30:00+00:00'
+[2025-02-04T10:22:06.201+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T10:22:06.222+0000] {connection_workflow.py:179} INFO - Pika version 1.3.2 connecting to ('172.18.0.4', 5672)
+[2025-02-04T10:22:06.223+0000] {io_services_utils.py:345} INFO - Socket connected: <socket.socket fd=7, family=2, type=1, proto=6, laddr=('172.18.0.6', 36600), raddr=('172.18.0.4', 5672)>
+[2025-02-04T10:22:06.225+0000] {connection_workflow.py:428} INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f63fff2f260>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f63fff2f260> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>).
+[2025-02-04T10:22:06.231+0000] {connection_workflow.py:293} INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f63fff2f260> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-02-04T10:22:06.232+0000] {connection_workflow.py:725} INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f63fff2f260> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-02-04T10:22:06.233+0000] {blocking_connection.py:453} INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f63fff2f260> params=<ConnectionParameters host=rabbitmq port=5672 virtual_host=/ ssl=False>>
+[2025-02-04T10:22:06.235+0000] {blocking_connection.py:1264} INFO - Created channel=1
+[2025-02-04T10:30:25.900+0000] {logging_mixin.py:190} INFO - Fetched report for adarshchintada2@gmail.com
+[2025-02-04T10:30:39.904+0000] {logging_mixin.py:190} INFO - Fetched report for adarsh.chintada@nimbleaccounting.com
+[2025-02-04T10:30:58.775+0000] {logging_mixin.py:190} INFO - Fetched report for n180479@rguktn.ac.in
+[2025-02-04T10:31:33.640+0000] {local_task_job_runner.py:127} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-02-04T10:31:33.647+0000] {process_utils.py:132} INFO - Sending 15 to group 110. PIDs of all processes in the group: [110]
+[2025-02-04T10:31:33.649+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 110
+[2025-02-04T10:31:33.657+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.

@@ -1,0 +1,17 @@
+[2025-01-25T15:15:46.524+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-25T15:15:46.562+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Report_POC.generate_reports manual__2025-01-25T15:15:29.873591+00:00 [queued]>
+[2025-01-25T15:15:46.579+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Report_POC.generate_reports manual__2025-01-25T15:15:29.873591+00:00 [queued]>
+[2025-01-25T15:15:46.580+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-25T15:15:46.641+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): generate_reports> on 2025-01-25 15:15:29.873591+00:00
+[2025-01-25T15:15:46.648+0000] {standard_task_runner.py:72} INFO - Started process 644 to run task
+[2025-01-25T15:15:46.651+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Report_POC', 'generate_reports', 'manual__2025-01-25T15:15:29.873591+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/report_poc.py', '--cfg-path', '/tmp/tmpmzqd2nw3']
+[2025-01-25T15:15:46.653+0000] {standard_task_runner.py:105} INFO - Job 66: Subtask generate_reports
+[2025-01-25T15:15:46.794+0000] {task_command.py:467} INFO - Running <TaskInstance: Report_POC.generate_reports manual__2025-01-25T15:15:29.873591+00:00 [running]> on host fe9b2aa6cdcc
+[2025-01-25T15:15:47.006+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Report_POC' AIRFLOW_CTX_TASK_ID='generate_reports' AIRFLOW_CTX_EXECUTION_DATE='2025-01-25T15:15:29.873591+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-25T15:15:29.873591+00:00'
+[2025-01-25T15:15:47.008+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-25T15:16:06.774+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-25T15:16:06.793+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-25T15:16:06.794+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Report_POC, task_id=generate_reports, run_id=manual__2025-01-25T15:15:29.873591+00:00, execution_date=20250125T151529, start_date=20250125T151546, end_date=20250125T151606
+[2025-01-25T15:16:06.870+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-25T15:16:06.894+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-25T15:16:06.898+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

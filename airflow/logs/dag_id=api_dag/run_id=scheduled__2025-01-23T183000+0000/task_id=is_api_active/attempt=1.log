@@ -1,0 +1,43 @@
+[2025-01-25T12:30:40.997+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-25T12:30:41.034+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_dag.is_api_active scheduled__2025-01-23T18:30:00+00:00 [queued]>
+[2025-01-25T12:30:41.058+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_dag.is_api_active scheduled__2025-01-23T18:30:00+00:00 [queued]>
+[2025-01-25T12:30:41.059+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-25T12:30:41.128+0000] {taskinstance.py:2889} INFO - Executing <Task(HttpSensor): is_api_active> on 2025-01-23 18:30:00+00:00
+[2025-01-25T12:30:41.133+0000] {standard_task_runner.py:72} INFO - Started process 95 to run task
+[2025-01-25T12:30:41.138+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'api_dag', 'is_api_active', 'scheduled__2025-01-23T18:30:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/api_dag.py', '--cfg-path', '/tmp/tmpz6_w6s91']
+[2025-01-25T12:30:41.144+0000] {standard_task_runner.py:105} INFO - Job 43: Subtask is_api_active
+[2025-01-25T12:30:41.277+0000] {task_command.py:467} INFO - Running <TaskInstance: api_dag.is_api_active scheduled__2025-01-23T18:30:00+00:00 [running]> on host c4db15d328f2
+[2025-01-25T12:30:41.551+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='api_dag' AIRFLOW_CTX_TASK_ID='is_api_active' AIRFLOW_CTX_EXECUTION_DATE='2025-01-23T18:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-23T18:30:00+00:00'
+[2025-01-25T12:30:41.552+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-25T12:30:41.589+0000] {baseoperator.py:421} WARNING - HttpSensor.execute cannot be called outside TaskInstance!
+[2025-01-25T12:30:41.590+0000] {http.py:139} INFO - Poking: posts/
+[2025-01-25T12:30:41.609+0000] {base.py:84} INFO - Retrieving connection 'dailysale_reportgen'
+[2025-01-25T12:30:41.953+0000] {http.py:204} ERROR - HTTP error: Not Found
+[2025-01-25T12:30:41.955+0000] {http.py:205} ERROR - {"detail":"Not Found"}
+[2025-01-25T12:31:41.953+0000] {http.py:139} INFO - Poking: posts/
+[2025-01-25T12:31:41.972+0000] {base.py:84} INFO - Retrieving connection 'dailysale_reportgen'
+[2025-01-25T12:31:42.250+0000] {http.py:204} ERROR - HTTP error: Not Found
+[2025-01-25T12:31:42.251+0000] {http.py:205} ERROR - {"detail":"Not Found"}
+[2025-01-25T12:32:42.250+0000] {http.py:139} INFO - Poking: posts/
+[2025-01-25T12:32:42.303+0000] {base.py:84} INFO - Retrieving connection 'dailysale_reportgen'
+[2025-01-25T12:32:42.589+0000] {http.py:204} ERROR - HTTP error: Not Found
+[2025-01-25T12:32:42.590+0000] {http.py:205} ERROR - {"detail":"Not Found"}
+[2025-01-25T12:33:42.588+0000] {http.py:139} INFO - Poking: posts/
+[2025-01-25T12:33:42.603+0000] {base.py:84} INFO - Retrieving connection 'dailysale_reportgen'
+[2025-01-25T12:33:42.894+0000] {http.py:204} ERROR - HTTP error: Not Found
+[2025-01-25T12:33:42.895+0000] {http.py:205} ERROR - {"detail":"Not Found"}
+[2025-01-25T12:34:42.897+0000] {http.py:139} INFO - Poking: posts/
+[2025-01-25T12:34:42.918+0000] {base.py:84} INFO - Retrieving connection 'dailysale_reportgen'
+[2025-01-25T12:34:43.208+0000] {http.py:204} ERROR - HTTP error: Not Found
+[2025-01-25T12:34:43.209+0000] {http.py:205} ERROR - {"detail":"Not Found"}
+[2025-01-25T12:35:43.207+0000] {http.py:139} INFO - Poking: posts/
+[2025-01-25T12:35:43.225+0000] {base.py:84} INFO - Retrieving connection 'dailysale_reportgen'
+[2025-01-25T12:35:43.517+0000] {http.py:204} ERROR - HTTP error: Not Found
+[2025-01-25T12:35:43.518+0000] {http.py:205} ERROR - {"detail":"Not Found"}
+[2025-01-25T12:36:04.163+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-01-25T12:36:04.165+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-25T12:36:04.166+0000] {process_utils.py:132} INFO - Sending 15 to group 95. PIDs of all processes in the group: [95]
+[2025-01-25T12:36:04.167+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 95
+[2025-01-25T12:36:04.168+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-01-25T12:36:04.226+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-25T12:36:04.261+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=95, status='terminated', exitcode=0, started='12:30:40') (95) terminated with exit code 0

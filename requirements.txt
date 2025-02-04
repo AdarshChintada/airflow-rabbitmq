@@ -1,0 +1,6 @@
+pymongo
+requests
+pandas
+numpy
+apache-airflow-providers-http
+pika  # RabbitMQ library for Python
